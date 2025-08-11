@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006400;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Rolagem suave ao clicar no menu */
+html {
+    scroll-behavior: smooth;
+}
