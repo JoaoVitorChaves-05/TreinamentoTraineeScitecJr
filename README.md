@@ -1,6 +1,6 @@
-# 📚 Plano de Treinamento - Trainees [Nome da Empresa Júnior]
+# 📚 Plano de Treinamento - Trainees SciTec Jr
 
-Este documento descreve o conteúdo, objetivos e organização do treinamento semanal (1h/semana) para os trainees da [Nome da Empresa Júnior].  
+Este documento descreve o conteúdo, objetivos e organização do treinamento semanal (1h/semana) para os trainees da SciTec Jr.  
 O foco é fornecer uma base sólida em desenvolvimento web, práticas de versionamento e boas práticas de programação.
 
 ---
