@@ -247,7 +247,11 @@ btn.addEventListener("click", () => {
 
 1. Botão que altera texto de um parágrafo  
 2. Input + botão → adicionar valor do input em uma lista `<ul>`  
-3. Galeria de imagens: trocar `src` e destacar thumbnail ativo  
+3. Galeria de imagens: crie uma galeria com três imagens dispostas horizontalmente e centralizadas na tela, com dois botões abaixo: "Esquerda" e "Direita".
+
+- Estado inicial: a imagem selecionada inicialmente deve ter bordas vermelhas.
+
+- Comportamento: ao clicar em um dos botões, a borda vermelha deve ser removida da imagem atual e aplicada à imagem seguinte na direção correspondente.
 
 ---
 
