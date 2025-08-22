@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Nota do HTML: 8 -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DragRace Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Faz mais sentido semântico que nav esteja dentro do header -->
+  <nav>
+    <a href="#" data-target="home">Home</a>
+    <a href="#" data-target="temporadas">Temporadas</a>
+    <a href="#" data-target="queens">Queens</a>
+  </nav>
+  <header>
+    <div id="banner">
+      <h1>DragRace Brasil</h1>
+      <p>Explore e fique por dentro do que acontece na 2ª temporada.</p>
+    </div> <!-- Tava faltando fechar essa div -->
+  </header>
+    
+  <div id="home">
+    <h2>Acompanhe as novidades da 2ª temporada</h2>
+    <div>
+      <div id="ep07">
+        Episódio 07
+      </div>
+      <div class="detalhes">
+        <p>Disponível dia 21 de agosto.</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep06">
+        Episódio 06
+      </div>
+      <div class="detalhes">
+        <p> No primeiro episódio, as queens fazem a apresentação da musica Boogie Brasil de Grag Queen. </p>
+        <p> Tema da runway: "Tempeiro Brasileiro"</p>
+        <p>Jurada convidada: Blogueirinha</p>
+        <p>DesiRée e Melody dublaram pelas suas vidas a musica " A Dona Aranha - Luisa Sonsa" , Melody venceu, DesiRée
+          foi a quarta eliminada</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep05">
+        Episódio 05
+      </div>
+      <div class="detalhes">
+        <p> No primeiro episódio, as queens fazem a apresentação da musica Boogie Brasil de Grag Queen. </p>
+        <p> Tema da runway: "Tempeiro Brasileiro"</p>
+        <p>Jurada convidada: Blogueirinha</p>
+        <p>Adora e Mercedes dublaram pelas suas vidas a musica "Tombei - Karol Konca" , Adora venceu, Mercedes foi a
+          terceira eliminada</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep04">
+        Episódio 04
+      </div>
+      <div class="detalhes">
+        <p> No primeiro episódio, as queens fazem a apresentação da musica Boogie Brasil de Grag Queen. </p>
+        <p> Tema da runway: "Tempeiro Brasileiro"</p>
+        <p>Jurada convidada: Blogueirinha</p>
+        <p>DesiRée e Melody dublaram pelas suas vidas a musica "Brasil - Gal Costa" , as duas venceram, ninguém foi
+          eliminada</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep03">
+        Episódio 03
+      </div>
+      <div class="detalhes">
+        <p> No primeiro episódio, as queens fazem a apresentação da musica Boogie Brasil de Grag Queen. </p>
+        <p> Tema da runway: "Tempeiro Brasileiro"</p>
+        <p>Jurada convidada: Blogueirinha</p>
+        <p>Melina Bley e Paola Hoffman dublaram pelas suas vidas a musica "The beggining - RuPaul" , Melina Bley venceu,
+          Paola Hoffman foi a segunda eliminada</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep02">
+        Episódio 02
+      </div>
+      <div class="detalhes">
+        <p> No segundo episódio, as queens enfrentam um desafio de design usando papel como tecido. </p>
+        <p> Tema da runway: "Rainhas de papel"</p>
+        <p>Jurada convidada: Fontana</p>
+        <p>Channel e Poseidon dublaram pelas suas vidas a música "Ultra son - Pablo Vittar" , Pseidon Venceu, Channel
+          foi a primeira eliminada</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep01">
+        Episódio 01
+      </div>
+      <div class="detalhes">
+        <p> No primeiro episódio, as queens fazem a apresentação da musica Boogie Brasil de Grag Queen. </p>
+        <p> Tema da runway: "Tempeiro Brasileiro"</p>
+        <p>Jurada convidada: Blogueirinha</p>
+        <p>Melina Blley e Ruby Nox dublaram pela vitória a musica "Funk Rave - Anitta" , Ruby Nox Venceu</p>
+      </div>
+    </div>
+    <div>
+      <div id="ep00">Meet the queens</div>
+      <div class="detalhes">
+        Conheça as queens da 2ª temporada
+        <ul>
+          <li>Adora Black 26 Brasília, Distrito Federal</li>
+          <li>Bhelchi 36 São Paulo, São Paulo</li>
+          <li>Melina Blley 30 Rio de Janeiro, Rio de Janeiro</li>
+          <li>Mellody Queen 30 Belo Horizonte, Minas Gerais</li>
+          <li>Poseidon Drag 30 Recife, Pernambuco</li>
+          <li>Ruby Nox 31 Recife, Pernambuco</li>
+          <li>DesiRée Beck 34 Salvador, Bahia</li>
+          <li>Mercedez Vulcão 36 São Paulo, São Paulo</li>
+          <li>Paola Hoffman >Van Cartier 35 Vila Velha, Espírito Santo</li>
+          <li>Chanel 21 São Gonçalo, Rio de Janeiro</li>
+        </ul>
+      </div>
+    </div>
+  </div> <!-- Tava faltando fechar essa div -->
+
+  <!--
+  Para os episódios, pode organizar com uma semântica mais adequada, por exemplo:
+
+  <section id="temporada2">
+    <h2>Acompanhe as novidades da 2ª temporada</h2>
+    <ul>
+      <li>
+        <button id="ep07" aria-expanded="false" aria-controls="detalhes07">
+          Episódio 07
+        </button>
+        <div id="detalhes07" class="detalhes" >
+          <p>Disponível dia 21 de agosto.</p>
+        </div>
+      </li>
+
+      <li>
+        <button id="ep06" aria-expanded="false" aria-controls="detalhes06">
+          Episódio 06
+        </button>
+        <div id="detalhes06" class="detalhes">
+          <p>No primeiro episódio, as queens fazem a apresentação da música Boogie Brasil de Grag Queen.</p>
+          <p>Tema da runway: "Tempero Brasileiro"</p>
+          <p>Jurada convidada: Blogueirinha</p>
+          <p>DesiRée e Melody dublaram suas vidas ao som de "A Dona Aranha - Luisa Sonza". Melody venceu, DesiRée foi a quarta eliminada.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  A ideia de usar <li> vem do fato de você estruturas repetidas, e nesses casos, o uso de listas faz mais sentido. Contudo, mandou bem: você dividiu bem o conteúdo e compreendeu como funcionam as "caixas" em HTML.
+
+  -->
+
+    <footer>
+      <p>&copy; 2025 1ª Tarefa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

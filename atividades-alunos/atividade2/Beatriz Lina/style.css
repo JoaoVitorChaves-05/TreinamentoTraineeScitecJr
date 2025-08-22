@@ -1,0 +1,40 @@
+/*
+    Nota do CSS: 9
+
+    Se atentou as cores, as fontes e o espacamento.
+
+    Dica: seria legal se tivesse importado uma do Google Fonts como mostrado em aula.
+*/
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: lavender;
+}
+
+    
+h1{
+    color: indigo;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: large;
+}
+
+ul{
+    font-size: large;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+@media screen and (max-width: 580px) {
+    div{
+        flex-direction: column;
+    }
+    
+}

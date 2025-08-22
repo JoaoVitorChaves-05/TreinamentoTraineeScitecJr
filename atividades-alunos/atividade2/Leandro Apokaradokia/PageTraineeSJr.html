@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE PAGE</title>
+    <link rel = "Stylesheet" href="styles.css">
+</head>
+
+<!-- Nota do HTML: 9 -->
+
+<!-- Deu pra notar que você se preocupou com semântica no HTML, para sua primeira página ficou bem legal. Você explorou bem os recursos que eu passei nas aulas -->
+
+<body>
+    <header>
+       <nav>
+
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#redes">Redes</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+
+        </ul>
+       </nav>
+    </header>
+
+<!-- Poderia fazer parte do header, abaixo do nav -->
+<div class="banner-conteudo">
+    <!-- A imagem não carregou mas cliquei no link e vi. Para carregar a imagem bastava deixar no diretório do projeto e indicar o caminho no src -->
+    <!-- Exemplo: <img src = "imagens/banner.jpg" alt = "Banner de tecnologia com alguns contatos"> -->
+    <img src = "https://media.licdn.com/dms/image/v2/D4D16AQHwMxKvVhH4og/profile-displaybackgroundimage-shrink_350_1400/B4DZfC.utFHkAY-/0/1751322914442?e=1758758400&v=beta&t=1jnkjR-t4JcaruxKyzAC4PxXl_kfTqcyS3GUyaeVk78" alt = " Banner de tecnologia com alguns contatos">
+</div>
+<main>
+    <section id = "sobre">
+        <h1>LEANDRO PEREIRA DA SILVA FILHO</h1>
+
+        <p>Jovem universitario Cristão,Empreendedor e Youtuber natural de Macaé/RJ  <br> Com 22 anos é atualmente Trainee na SciTec-JR</p>
+    </section>
+    <hr>
+    
+    <h2>SER JÚNIOR HOJE PARA SER GIGANTE SEMPRE ! </h2> 
+
+    <section id = "redes">
+        <h3> MINHAS REDES :</h3>
+        <ul>
+            <li><a href = "https://www.linkedin.com/in/leandro-pereira-da-silva-filho-6a7a33236/" target="_blank"> Meu Linkedin</a></li>
+            <li><a href="https://www.youtube.com/@apokaradokia" target="_blank">Meu Canal</a></li>
+        </ul>
+    </section>
+    <hr>
+        <section id="videos">
+            <h4>CONHECENDO O LEANDRO</h4>
+            <hr>
+            <div class="Videos">
+                <h5>Conhecendo a historia do Mathias</h5>
+                <div class="Videos-conteudo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5dXK_5-jlPo?si=lDH67pzVmj1uJbJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="Videos">
+                <h5>A historia resumida do Leandro antes do Mathias até a UNIFESP</h5>
+
+                <div class="Videos-conteudo">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/27YDOp-sPHI?si=8aL4MNZlIdd8lwac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div> <!-- Faltou fechar essa div -->
+        </section>
+
+        <section id="hobbies">
+            <hr>
+            <h3>HOBBIES E INTERESSES</h3>
+            <ul class="hobbies-lista">
+                <li>LEITURA SOBRE TEOLOGIA, FILOSOFIA, ECONOMIA E OUTROS</li>
+                <li>PRODUÇÃO DE CONTEÚDO</li>
+                <li>ESTUDO DE NOVAS TECNOLOGIAS,HABILIDADES E CURIOSIDADES</li>
+                <li>ACADEMIA</li>
+                <li>EMPREENDEDORISMO E MINDSET</li>
+                <li>JOGOS, FILMES E ANIMES</li>
+            </ul>
+      </section>
+</main>
+    <script src="script.js"></script>
+</body>
+
+</html>

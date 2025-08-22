@@ -1,0 +1,52 @@
+/*
+    Nota do CSS: 9
+*/
+
+div {
+    height: 90px;
+    background-color: rgb(87, 81, 81);
+
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 2%;
+    color: orange
+}
+
+/*
+    Nesses casos, procurar utilizar outros nomes para as classes. 
+    Num projeto grande, pode ficar complicado identificar as classes.
+*/
+
+.Titulo {
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.titulo {
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+p {
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+/*
+    Aqui também é válido o comentário anterior
+*/
+
+.Enumeracao {
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.enumeracao {
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 2%;
+}

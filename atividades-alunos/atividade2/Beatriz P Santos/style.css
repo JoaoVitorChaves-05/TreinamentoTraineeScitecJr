@@ -1,0 +1,63 @@
+/* Nota de CSS: 10 */
+
+/* Gostei muito do resultado final, você teve cuidado em deixar o site bem bonito */
+
+body {
+  font-size: 25px ;
+  font-family: serif;
+  margin: 0;
+  background: whitesmoke;
+  color:black;
+}
+
+header {
+  background: pink;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+nav {
+  background: gray;
+  padding: 5px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  font-size: 20px;  
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  color: pink;
+}
+
+.gato {
+  width: 200px;       
+  border-radius: 50%; 
+  display: block;     
+  margin: 20px auto;  
+}
+
+#recomendados a {
+    color: black; /* Cor dos links (pode personalizar) */
+    text-decoration: none;
+}
+#recomendados a:hover {
+    color: #2980b9; /* Cor quando passa o mouse (pode personalizar) */
+    text-decoration: underline;
+}
