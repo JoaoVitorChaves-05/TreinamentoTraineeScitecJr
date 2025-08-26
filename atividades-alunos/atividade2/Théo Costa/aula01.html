@@ -6,106 +6,67 @@
     <title>Sobre Mim</title>
     <link rel="stylesheet" href="aula01.css">
 </head>
-
-<!-- Nota do HTML: 9 -->
-
 <body>
-    <!-- Semânticamente, seria melhor se a <div> abaixo fosse uma <header> -->
-    <div>
+    <!-- Cabeçalho -->
+    <header>
         <h1>Sobre Mim</h1>
-    </div>
+    </header>
 
-    <!-- Faz mais sentido semântico que todo o contéudo principal esteja dentro de uma <main> -->
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção Resumo -->
+        <h2 class="titulo">Resumo</h2>
+        <p>
+            Me chamo Théo Enrico Costa, nasci em São José dos Campos e passei toda a minha vida (o que ainda não é muito kkkk) morando aqui.
+            Gosto muito de ficar em casa, mas também amo viajar e sair para parques e exposições, ainda mais se tiver comida envolvida. 
+            Eu costumo enjoar rápido das coisas, mas é com a mesma velocidade que eu me interesso de novo por elas, então posso me entreter com os
+            mesmos três assuntos em um mês ou mais se eu ficar ciclando entre eles. Por mais que eu goste de estudar e aprender coisas novas, 
+            eu não consigo ficar muito tempo estudando ou fazendo exercícios sobre algo (mas consigo ficar três horas vendo qualquer bobagem no YouTube, o que é um pouco revoltante). 
+            Gosto MUITO de música e não tenho um estilo ou artista favorito, qualquer coisa que cair em minhas mãos e que eu goste vai para minha playlist. 
+            Por mais que eu tente organizar a minha rotina, eu acho muito chato fazer sempre as mesmas coisas sempre no mesmo horário.
+            Eu sempre gostei de tecnologia, mas também gosto de saber de tudo um pouco; quem sabe um conhecimento aleatório não vem a ser de ajuda um dia desses. 
+            Quero um dia construir a minha própria empresa, mas ainda não sei bem com o que quero trabalhar.
+        </p>
 
-    <!-- Esse título seria melhor ser um <h2> com o seguinte estilo:
-        .Titulo {
-            display: list-item;
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        Eu entendi o que você quis fazer, achei interessante a sacada e parabéns!
-    -->
-    <ul>
-        <li class="Titulo">Resumo</li>
-    </ul>
+        <!-- Seção Interesses -->
+        <h2 class="titulo">Interesses</h2>
+        <p>
+            Há coisas que eu gosto que são parte da minha vida desde criança, já outras ocuparam um lugar importante recentemente. Vamos dar uma olhada em algumas delas:
+        </p>
 
-    <p>Me chamo Théo Enrico Costa, nasci em São José dos Campos e passei toda a minha vida (o que ainda não é muito kkkk) morando aqui.
-       Gosto muito de ficar em casa, mas também amo viajar e sair para parques e exposições, ainda mais se tiver comida envolvida. 
-       Eu costumo enjoar rápido das coisas, mas é com a mesma velocidade que eu me interesso de novo por elas, então eu posso me entreter com os
-       mesmos três assuntos em um mês ou mais se eu ficar ciclando entre eles. Por mais que eu goste de estudar e aprender coisas novas, eu não 
-       consigo ficar muito tempo estudando ou fazendo exercícios sobre algo (mas eu consigo ficar três horas vendo qualquer bobagem no Youtube, o que 
-       é um pouco revoltante). Gosto MUITO de música e não tenho um estilo ou artista favorito, qualquer coisa que cair em minhas mãos e que eu goste vai 
-       pra minha playlist. Por mais que eu tente organizar a minha rotina, eu acho muito chato fazer sempre as mesmas coisas sempre no mesmo horário.
-       Eu sempre gostei de tecnologia, mas também gosto de saber de tudo um pouco, quem sabe um conhecimento aleatório não vem a ser de ajuda um dia desses. 
-       Quero um dia construir a minha própria empresa, mas ainda não sei bem com o que quero trabalhar.
-    </p>
+        <ul>
+            <li class="enumeracao">Desenho: Acho que é o meu interesse mais antigo, desde que me conheço por gente eu rabisco em qualquer pedaço de papel...
+            </li>
+            <li class="enumeracao">Jogos de Tabuleiro: Nunca gostei muito de esportes ou outras atividades físicas (a não ser natação, essa eu acho maneira)...
+            </li>
+            <li class="enumeracao">Livros: Voltando ao tema de poder experienciar a vida de outras pessoas diretamente da minha casa...
+            </li>
+            <li class="enumeracao">Cozinhar: Se tem uma coisa que eu sou bom é comer. Lasanhas, hambúrgueres, pizzas e qualquer outra coisa boa...
+            </li>
+            <li class="enumeracao">Insetos: Pra alguns essas criaturinhas são símbolos de asquerosidade e repulsa. Mas desde pequeno meus olhos brilhavam...
+            </li>
+        </ul>
 
-    <ul>
-        <li class="titulo">Interesses</li>
-    </ul>
+        <!-- Seção Projetos -->
+        <h2 class="titulo">Projetos</h2>
+        <p>
+            Eu gosto de chamar de projetos minhas metas que desejo alcançar a curto, médio e longo prazo. Elas vão desde coisas bobas que não vão mudar drasticamente a minha 
+            vida a objetivos que podem me fazer melhorar como estudante, profissional e como indivíduo, vejamos algumas:
+        </p>
 
-    <p>Há coisas que eu gosto que são parte da minha vida desde criança, já outras ocuparam um lugar importante na minha lista de interesses 
-       recentemente. Sendo assim, vamos dar uma olhada em algumas delas:
-    </p>
+        <ul>
+            <li class="enumeracao">Escrever com a mão esquerda: Eu sou destro, mas sempre quis poder ter habilidades manuais com as duas mãos...
+            </li>
+            <li class="enumeracao">Criar um jogo: Estou aprendendo programação, então um bom desafio seria criar um joguinho usando as ferramentas que estou aprendendo...
+            </li>
+            <li class="enumeracao">Me sentir satisfeito com os meus desenhos: Ainda não me sinto realizado com o meu estilo de arte e nível de detalhamento...
+            </li>
+        </ul>
+    </main>
 
-    <ul>
-        <li class="Enumeracao">Desenho: Acho que é o meu interesse mais antigo, desde que me conheço por gente eu rabisco em qualquer pedaço de papel
-            que ponho a mão. Sempre gostei de criar mundos, pessoas e histórias com o poder da ponta de um lápis. Infelizmente, eu ainda não sou muito bom,
-            pelo menos não estou muito satisfeito com o nível de minhas capacidades atuais. Eu sempre desenhei por diversão, então fazer disso um objeto de
-            estudo e melhora ainda é um pouco estranho para mim;
-        </li>
-
-        <li class="enumeracao">Jogos de Tabuleiro: Nunca gostei muito de esportes ou outras atividades físicas (a não ser natação, essa eu acho maneira), mas uma
-            coisa que me enche de adrenalina são jogos que me permitem passar pelas mais diversas experiências do conforto da minha casa e ao lado de uma boa xícara 
-            de café. Monopoly, War, Ludo. Todos esses jogos são mais do que interessantes para mim. Um outro tipo de jogo de tabuleiro que eu gosto é o RPG de mesa, 
-            poder ser um personagem em um mundo fantástico e fazer parte de uma história com meus amigos é elgo que eu gosto muito de fazer;
-        </li>
-
-        <li class="enumeracao">Livros: Voltando ao tema de poder experenciar a vida de outras pessoas diretamente da minha casa, os livros fazem um ótimo trabalho 
-            nesse quesito. Meus favoritos são os de crime policial e os de mistério, tentar solucionar o caso antes do detetive fazê-lo é um desafio que amo fazer
-            (mas nem sempre consigo kkkk). Não tenho lido muito ultimamente porque eu prefiro ler livros físicos e não consegui por as minhas mãos em nenhum, não
-            consigo ler livros no meu celular, parece que perde a graça;
-        </li>
-
-        <li class="enumeracao">Cozinhar: Se tem uma coisa que eu sou bom é comer. Lasanhas, harburgures, pizzas e qualquer outra coisa boa eu mando pra dentro numa
-            alegria só, porém ultimamente eu comecei a pensar que eu deveria aprender todo o processo gastronômico que envolve comer coisas saborosas. Eu ainda não sou 
-            o melhor cozinheiro que existe, mas já sei me virar quando preciso. 
-        </li>
-
-        <li class="enumeracao">Insetos: Pra alguns essas criaturinhas são símbolos de asquerosidade e repulsa. Mas desde pequeno meus olhos brilhavam quando eu achava
-            um besouro ou um gafanhoto. Um dos meus sonhos é fazer uma colméia para deixar no quintal e um formigueiro de vidro pra eu poder ver as formigas trabalhando
-            Eu até já tenho uma coleção de insetos mortos, mas eu queria ter uns de bichinhos de estimação;
-        </li>
-    </ul>
-
-    <ul>
-        <li class="titulo">Projetos</li>
-    </ul>
-    
-    <p>Eu gosto de chamar de projetos minhas metas que desejo alcançar a curto, médio e longo prazo. Elas vão desde coisas bobas que não vão mudar drasticamente a minha 
-        vida a objetivos que podem me fazer melhorar como estudante, profissional e como indivíduo, vejamos algumas:
-    </p>
-
-    <ul>
-        <li class="Enumeracao">Escrever com a mão esquerda: Eu sou destro, mas sempre quis poder ter habilidades manuais com as duas mãos e por isso eu tenho tentado 
-            realizar algumas de minhas tarefas cotidianas com a minha mão menos capaz para treiná-la um pouco. Não acredito que vou conseguir fazer coisas muito precisas 
-            com ela, mas se eu puder fazer mais coisas com a minha mão esquerda eu vou achar legal;
-        </li>
-
-        <li class="enumeracao">Criar um jogo: Eu estou aprendendo programação, então eu acho que um bom desafio para eu testar minhas habilidades nessa área futuramente
-            seria criar um joguinho usando as ferramentas que eu estou aprendendo a trabalhar com. Não sei ainda muito bem sobre o que e como será esse jogo, mas eu ainda
-            não estou muito preocupado com isso, ainda estou me concentrando em aprender as linguagens de programação primeiro;
-        </li>
-
-        <li class="enumeracao">Me sentir satisfeito com os meus desenhos: Eu já falei aqui como eu gosto de desenhar, mas eu ainda não me sinto realizado com o meu
-            estilo de arte e nível de detalhamento e finalização dos meus desenhos. Minha meta para esse ano é aprender a desenhar melhor animais e outras coisas que
-            possuam formas mais orgânicas. 
-        </li>
-    </ul>
-
-    <p>Bem, eu acho que era só isso que eu tinha de mais interessante para falar sobre mim, obrigado pela atenção e até mais!</p>
-
-    <!-- Poderia ter um rodapé aqui -->
-
+    <!-- Rodapé -->
+    <footer>
+        <p>Obrigado pela atenção e até mais!</p>
+    </footer>
 </body>
 </html>

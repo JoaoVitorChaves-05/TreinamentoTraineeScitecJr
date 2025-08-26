@@ -1,52 +1,43 @@
-/*
-    Nota do CSS: 9
-*/
+/* Nota do CSS: 9 */
 
-div {
+/* Cabeçalho */
+header {
     height: 90px;
     background-color: rgb(87, 81, 81);
-
     display: flex;
     align-items: center;
+    padding-left: 2%;
 }
 
-h1 {
-    margin-left: 2%;
-    color: orange
+header h1 {
+    color: orange;
+    margin: 0; /* Remove margem padrão do h1 */
 }
 
-/*
-    Nesses casos, procurar utilizar outros nomes para as classes. 
-    Num projeto grande, pode ficar complicado identificar as classes.
-*/
-
-.Titulo {
-    margin-left: 2%;
-    font-size: 150%;
-}
-
+/* Títulos de seções */
 .titulo {
-    margin-top: 4%;
-    margin-left: 2%;
-    font-size: 150%;
+    font-size: 1.5em; /* 150% */
+    display: list-item; /* Para ter o disco */
+    list-style-type: disc;
+    list-style-position: inside; /* Disco dentro do bloco */
+    margin: 1em 0 0.5em 2%; /* top, right, bottom, left */
 }
 
+/* Parágrafos */
 p {
-    margin-left: 4%;
-    margin-right: 2%;
+    margin: 1em 2% 1em 8%; /* top, right, bottom, left */
+    line-height: 1.5; /* Melhora a legibilidade */
 }
 
-/*
-    Aqui também é válido o comentário anterior
-*/
-
-.Enumeracao {
-    margin-left: 4%;
-    margin-right: 2%;
+footer p {
+    margin: 1em 0 0.5em 2%;
 }
 
+/* Listas de itens */
 .enumeracao {
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 2%;
+    margin: 0.5em 2% 0.5em 12%; /* top, right, bottom, left */
+    line-height: 1.4; /* Ajusta espaçamento interno */
 }
+
+/* Removidas classes desnecessárias (.Titulo e .Enumeracao) 
+   para padronizar nomes e facilitar manutenção em projetos grandes */
