@@ -151,8 +151,10 @@ app.post('/api/produtos', (req, res) => {
 ## 📝 Exercício Final (10 min)
 1. Crie uma rota **`/api/produtos`** com GET que retorne uma lista de produtos.  
 2. Crie uma rota **`/api/produtos/:id`** que retorne apenas um produto específico.  
-3. Adicione uma rota **POST** que receba um produto via `req.body` e exiba no console.  
-4. Teste as rotas no navegador, **Postman** ou **Insomnia**.  
+3. Adicione uma rota **POST** que receba um produto via `req.body` e adicione na lista de objetos com um id
+4. Adicione uma rota **POST** que receba um produto via `req.body` e
+atualize o produto de id correspondente
+5. Teste as rotas no navegador, através de um html hospeado pelo servidor.  
 
 ---
 
