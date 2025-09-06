@@ -13,6 +13,32 @@
   --color-accent-hover: #f7c068;
 }
 
+/* Barra de rolagem para navegadores baseados em WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* largura da barra */
+}
+
+::-webkit-scrollbar-track {
+  background: #f5deb3; /* cor de fundo do trilho (bege) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5a3d2b; /* cor do "polegar" (marrom) */
+  border-radius: 10px;
+  border: 2px solid #f5deb3; /* borda para dar contraste */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8b5e3c; /* tom mais claro no hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #5a3d2b #f5deb3;
+}
+
+
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;

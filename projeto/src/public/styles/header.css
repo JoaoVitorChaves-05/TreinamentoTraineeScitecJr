@@ -11,6 +11,13 @@ header {
     background-color: #422f1b;
 }
 
+@media screen and (max-width: 680px) {
+    header {
+        flex-direction: column;
+    }
+    
+}
+
 header div {
     display: flex;
     align-items: center;
@@ -45,8 +52,12 @@ header nav a {
 
     font-size: 24px;
     font-weight: 400;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 header nav a:hover {
-    color: #D2691E;
+    color: var(--color-accent);
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }

@@ -1,27 +1,31 @@
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    background-color: #422f1b;
-    color: #FFFFFF;
+.footer {
+  background-color: #5a3d2b; /* marrom ByteCoffee */
+  color: #f5deb3; /* bege */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 3rem;
+  font-size: 0.95rem;
+  flex-wrap: wrap; /* permite quebra no mobile */
 }
 
-footer div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+.footer-left p {
+  margin: 0;
 }
 
-footer div:first-child {
-    margin-bottom: 1rem;
+.footer-right {
+  display: flex;
+  gap: 16px;
 }
 
-footer div img {
-    width: 50px;
-    height: 50px;
+.footer-right a img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  filter: brightness(0) invert(1); /* deixa ícones brancos, se forem pretos */
+}
 
-    cursor: pointer;
+.footer-right a img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
 }
